@@ -1,0 +1,23 @@
+# Credentials & secrets
+config.py
+firebase-service-account.json
+AuthKey_*.p8
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Database
+filament_tracker.db
+filament_tracker_test.db
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo

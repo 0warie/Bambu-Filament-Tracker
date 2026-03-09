@@ -1,0 +1,11 @@
+# Bambu MQTT connection
+paho-mqtt>=2.0.0
+
+# Filament Tracker web server
+flask>=3.0.0
+
+# Optional: needed only if ENABLE_NOTIFICATIONS is True
+# firebase-admin>=6.0.0
+# httpx[http2]>=0.27.0
+# PyJWT>=2.8.0
+# cryptography>=41.0.0
