@@ -21,6 +21,9 @@ Bambu Printer ──MQTT──> Filament Tracker (Python) ──> Web UI (http:/
 3. Remaining filament is tracked over time as prints consume material
 4. A **web dashboard** shows current AMS status, full spool inventory, usage charts, and low-stock alerts
 
+## Docker
+docker run -d -p 5000:5000 -v ./config.py:/app/config.py ebteam/filament-tracker
+
 ## Features
 
 - **Real-time AMS view** — see what's loaded in each AMS slot with live remaining weight
@@ -253,3 +256,4 @@ FilamentTracker/
 ## License
 
 MIT
+
